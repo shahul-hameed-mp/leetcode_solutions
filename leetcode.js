@@ -27,6 +27,45 @@
 //     return null;
 // };
 
+// 26 -08 - 2025
 
-// tomorrow store it in  map and solve the in sorted Array
+// my first code
+/*
+var maxProfit = function(prices) {
+    for(i=0;i<prices.length;i++){
+        max=0
+        for (j=i+1;j<prices.length;j++){
+            if (i<j ){
+             max=0
+            }
+            if ((j-i)>max){
+                max=j-i
+            }
+        }
+        return max;
+    }
+};
+*/
+// result = maxProfit([7,1,5,3,6,4]);
+// console.log(result);
 
+
+
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+// var maxProfit = function(prices) {
+//      let minPrice=Infinity;
+//      let maxPrice=0
+//     for (let price of prices){
+//         if (price<minPrice){
+//             minPrice=price
+//         }
+//         let profit=price-minPrice
+//         if (profit>maxPrice){
+//             maxPrice=profit
+//         }
+//     }
+//     return maxPrice
+// };
