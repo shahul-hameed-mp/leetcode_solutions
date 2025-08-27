@@ -69,3 +69,55 @@ var maxProfit = function(prices) {
 //     }
 //     return maxPrice
 // };
+
+
+ // 27 -08 - 2025
+
+
+
+// var containsDuplicate = function(nums) {
+//     for (let i=0;i<nums.length;i++){
+//         for (let j=i+1;j<nums.length;j++){
+//             if (nums[i] === nums[j]){
+//                 return true
+//             }
+            
+//         }
+//     }
+//     return false
+// };
+
+
+//  this was the first submit but there showed that Time Limit Exceeded 
+
+
+/**
+ * @param {number[]} nums
+ * @return {boolean}
+ */
+// var containsDuplicate = function(nums) {
+//     const numSet = new Set();
+//     for (let i = 0; i < nums.length; i++) {
+//         if (numSet.has(nums[i])) {
+//             return true;
+//         }
+//         numSet.add(nums[i]);
+//     }
+//     return false;
+// };
+
+
+// var containsDuplicate = function(nums) {
+//     const seenElement ={}
+//     for (let i=0; i<nums.length;i++){
+//         if (nums[i] in seenElement){
+//             return true
+//         }
+//         seenElement[nums[i]]=i
+//     }
+//     return false
+// }
+
+// result = containsDuplicate([1, 2, 3, 4]);
+// console.log(result);
+
